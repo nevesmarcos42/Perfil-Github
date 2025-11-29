@@ -1,14 +1,72 @@
-# Dio
-# Introdução ao react-native
-![image](https://dsm01pap007files.storage.live.com/y4m8m8vKKPpvzgIriW5frsKvYh9qg5YV9QNiGv9kuOhs5_aR9j9ElWN044raPI07fZoJBGO1rDs4LwXWqCjek0M_DP_-3YlE1lwsrFgIMk1S7ESSxkpmmvBFum1wZid7ORgPMvuHzfXauhzwaB7pAu3zExF6c4nS_KA26gTaNJ8mWqwWNxo6XT-OcYBj904ituLNWWwO0_RWWLo6WArtfVm1Wt43wnV3foT860iAMyMH7E?encodeFailures=1&width=430&height=765)
+# Perfil Github
 
-# Conteudo
- - Conhecendo o View e Text
- - Conhecendo o StyleSheet
- - Conhecendo o SafeAreaView e StatusBar
- - Conhecendo Image
- - Conhecendo o Flex-Box
- - Adicionando nome, nickname e descrição
- - Criando botão
- - Criando botão
- - Conhecendo o Linking
+Aplicativo mobile desenvolvido em React Native para exibir um perfil do Github de forma estilizada e interativa.
+
+## Sobre o Projeto
+
+Este projeto foi desenvolvido como parte do curso de Introdução ao React Native da DIO (Digital Innovation One). O aplicativo apresenta uma interface de perfil de usuário com informações personalizadas e navegação entre telas.
+
+## Tecnologias Utilizadas
+
+- React Native
+- Expo
+- React Navigation
+- JavaScript
+
+## Funcionalidades
+
+- Tela de boas-vindas
+- Tela de perfil com informações do usuário
+- Navegação entre telas
+- Layout responsivo utilizando Flexbox
+- Integração com links externos usando Linking API
+
+## Conceitos Aplicados
+
+Durante o desenvolvimento deste projeto, foram explorados os seguintes conceitos do React Native:
+
+- Componentes básicos: View e Text
+- Estilização com StyleSheet
+- SafeAreaView e StatusBar para melhor compatibilidade
+- Componente Image para exibição de imagens
+- Layout com Flexbox
+- Criação de componentes personalizados (botões)
+- Linking API para abertura de URLs externas
+
+## Como Executar
+
+1. Clone este repositório
+
+2. Instale as dependências:
+
+   ```bash
+   npm install
+   ```
+
+3. Execute o projeto:
+
+   ```bash
+   npm start
+   ```
+
+4. Use o Expo Go no seu dispositivo móvel ou um emulador para visualizar o app
+
+## Estrutura do Projeto
+
+```plaintext
+src/
+├── pages/
+│   ├── Welcome/     # Tela de boas-vindas
+│   └── SignIn/      # Tela de perfil
+└── routes/          # Configuração de navegação
+```
+
+## Requisitos
+
+- Node.js
+- Expo CLI
+- Expo Go (para testar em dispositivo físico)
+
+## Licença
+
+Este projeto foi desenvolvido para fins educacionais.
